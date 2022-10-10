@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Options from '../Options/Options';
+import { EyeIcon } from '@heroicons/react/24/solid'
 
 const Questions = ({ questions }) => {
     const { question, options, correctAnswer } = questions;
@@ -17,7 +18,7 @@ const Questions = ({ questions }) => {
     }
 
     const showAnswer = () => {
-        console.log('Show Answer')
+
     }
 
     return (
@@ -31,6 +32,11 @@ const Questions = ({ questions }) => {
                     showAnswer={showAnswer}
                 ></Options>)
             }
+            <div className='flex flex-col items-center justify-center mt-2'>
+                <EyeIcon onClick={showAnswer} className="h-6 w-6 text-blue-500 my-3" />
+                <h1 className='hidden'>Correct Answer: <span className=' font-serif text-orange-600'>{correctAnswer}</span> </h1>
+            </div>
+
         </div>
     );
 };
