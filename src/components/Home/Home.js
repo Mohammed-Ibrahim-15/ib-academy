@@ -5,7 +5,7 @@ import Quiz from '../Quiz/Quiz';
 
 const Home = () => {
     const quizs = useLoaderData().data;
-    console.log(quizs)
+    // console.log(quizs)
     return (
         <div className='bg-sky-200 pb-20'>
             <Header></Header>
