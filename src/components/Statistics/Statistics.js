@@ -6,8 +6,8 @@ const Statistics = () => {
     const data = useLoaderData().data;
     console.log(data)
     return (
-        <div className='bg-gray-100'>
-            <h2 className='text-2xl font-bold py-6 mb-6'>Statistics of Our Quiz</h2>
+        <div className='bg-gray-100 pb-4'>
+            <h2 className='text-3xl font-bold py-6 mb-6 text-indigo-500'>Statistics of Our Quiz</h2>
             <div className='flex justify-center items-center flex-col'>
                 <div>
                     <ResponsiveContainer width={400} height={400}>
@@ -18,7 +18,7 @@ const Statistics = () => {
                             <Tooltip />
                         </LineChart>
                     </ResponsiveContainer>
-                    <h1>Figure: Line Graph</h1>
+                    <h1 className='font-semibold'>Figure: Line Graph</h1>
                 </div>
                 <div>
                     <PieChart width={400} height={400}>
@@ -35,7 +35,7 @@ const Statistics = () => {
                         <Pie dataKey="total" data={data} cx={500} cy={200} innerRadius={40} outerRadius={80} fill="#82ca9d" />
                         <Tooltip />
                     </PieChart>
-                    <h1>Figure: Pie Chart</h1>
+                    <h1 className='font-semibold'>Figure: Pie Chart</h1>
                 </div>
             </div>
         </div>
