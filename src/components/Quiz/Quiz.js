@@ -11,7 +11,7 @@ const Quiz = ({ quiz }) => {
                     <h1 className='font-bold lg:text-2xl'>Quiz Name: {name} </h1>
                     <p className=' font-medium lg:text-xl'>Total Quiz: {total}</p>
                 </div>
-                <Link to={`quiz/${id}`}>
+                <Link to={`home/${id}`}>
                     <button className='bg-indigo-600 font-medium px-6 py-2 rounded-lg hover:bg-yellow-500'>Click Here</button>
                 </Link>
             </div>

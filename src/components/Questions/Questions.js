@@ -12,11 +12,11 @@ const Questions = ({ questions }) => {
     const handleAnswer = (opt) => {
 
         if (correctAnswer === opt) {
-            toast.success('YAY!!  Correct Answer !!!')
+            toast.success('YAY!!  Correct Answer...')
         }
         else {
 
-            toast.error('OPPS!!  Wrong Answer !!!')
+            toast.error('OPPS!!  Wrong Answer...')
 
         }
     }
