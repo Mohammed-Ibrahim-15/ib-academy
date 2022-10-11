@@ -26,7 +26,7 @@ const Questions = ({ questions }) => {
                     handleAnswer={handleAnswer}
                 ></Options>)
             }
-            <div onClick={() => setShowAns(!showAns)} className='flex flex-col items-center justify-center mt-2 hover:bg-gray-100 cursor-pointer'>
+            <div onClick={() => setShowAns(!showAns)} className='flex flex-col items-center justify-center mt-2 hover:bg-slate-200 cursor-pointer'>
                 {
                     showAns ?
                         <EyeIcon className="h-6 w-6 text-blue-500 my-3" />

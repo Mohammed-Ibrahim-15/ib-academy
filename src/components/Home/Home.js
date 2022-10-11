@@ -7,7 +7,7 @@ const Home = () => {
     const quizs = useLoaderData().data;
     // console.log(quizs)
     return (
-        <div className='  bg-gray-300 pb-20'>
+        <div className='  bg-gray-100 pb-20'>
             <Header></Header>
             <div className='mx-4 my-8 grid sm:grid-cols-1 lg:grid-cols-2 gap-4 '>
                 {

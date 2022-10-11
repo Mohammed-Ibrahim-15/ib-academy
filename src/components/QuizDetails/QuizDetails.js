@@ -6,7 +6,7 @@ const QuizDetails = () => {
     const quiz = useLoaderData().data;
     const questions = useLoaderData().data.questions;
     return (
-        <div className='mt-6'>
+        <div className='pt-2 bg-gray-100'>
             <h1 className='text-3xl font-bold my-6'>Quiz of {quiz.name} </h1>
             {
                 questions.map(questions => <Questions
