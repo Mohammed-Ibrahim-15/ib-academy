@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Options from '../Options/Options';
 import { EyeIcon } from '@heroicons/react/24/solid'
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Questions = ({ questions }) => {
     const { question, options, correctAnswer } = questions;
@@ -10,10 +12,12 @@ const Questions = ({ questions }) => {
     const handleAnswer = (opt) => {
 
         if (correctAnswer === opt) {
-            alert('True')
+            toast.success('YAY!!  Correct Answer !!!')
         }
         else {
-            alert('False')
+
+            toast.error('OPPS!!  Wrong Answer !!!')
+
         }
     }
     return (
