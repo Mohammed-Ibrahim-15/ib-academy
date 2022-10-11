@@ -7,7 +7,7 @@ const Statistics = () => {
     console.log(data)
     return (
         <div className='bg-gray-100 pb-4'>
-            <h2 className='text-3xl font-bold py-6 mb-6 text-indigo-500'>Statistics of Our Quiz</h2>
+            <h2 className='text-3xl font-bold py-6 mb-6 text-indigo-600'>Statistics of Our Quiz</h2>
             <div className='flex justify-center items-center flex-col'>
                 <div>
                     <ResponsiveContainer width={400} height={400}>

@@ -17,7 +17,7 @@ const Questions = ({ questions }) => {
         }
     }
     return (
-        <div className='border-2 border-indigo-500 rounded-3xl p-8 my-3 mx-1/2 mx-12'>
+        <div className='border-2 border-indigo-600 rounded-3xl p-8 my-3 mx-1/2 mx-12'>
             <h1 className='text-xl font-bold my-4'>{question}</h1>
             {
                 options.map((options, idx) => <Options

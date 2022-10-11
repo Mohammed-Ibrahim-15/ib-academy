@@ -17,7 +17,7 @@ const Error = () => {
                     </div>
                 </section>
             </div>
-            <Link to='/' className="px-8 py-3 text-xl font-semibold rounded-xl bg-indigo-500 hover:bg-yellow-500">
+            <Link to='/' className="px-8 py-3 text-xl font-semibold rounded-xl bg-indigo-600 hover:bg-yellow-500">
                 <button>Back to Homepage</button>
             </Link>
         </div>
