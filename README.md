@@ -1,1 +1,1 @@
-<h1>IB Academy</h1>
+##Name of our website is <h1>IB Academy</h1>
