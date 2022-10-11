@@ -18,7 +18,7 @@ const Statistics = () => {
                             <Tooltip />
                         </LineChart>
                     </ResponsiveContainer>
-                    <h1 className='font-semibold'>Figure: Line Graph</h1>
+                    <h1 className='text-lg font-semibold'>Figure: Line Graph</h1>
                 </div>
                 <div>
                     <PieChart width={400} height={400}>
@@ -35,7 +35,7 @@ const Statistics = () => {
                         <Pie dataKey="total" data={data} cx={500} cy={200} innerRadius={40} outerRadius={80} fill="#82ca9d" />
                         <Tooltip />
                     </PieChart>
-                    <h1 className='font-semibold'>Figure: Pie Chart</h1>
+                    <h1 className='text-lg font-semibold'>Figure: Pie Chart</h1>
                 </div>
             </div>
         </div>

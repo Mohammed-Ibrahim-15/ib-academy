@@ -11,9 +11,9 @@ const NavBar = () => {
                     <h2 className='text-2xl font-bold'>IB Academy</h2>
                 </div></Link>
             <nav>
-                <Link className='mr-4 font-semibold hover:text-indigo-600' to='/'>Home</Link>
-                <Link className='mr-4 font-semibold hover:text-indigo-600' to='/statistics'>Statistics</Link>
-                <Link className='mr-4 font-semibold hover:text-indigo-600' to='/blog'>Blog</Link>
+                <Link className='mr-4 font-semibold hover:text-indigo-600 hover:italic hover:font-extrabold' to='/'>Home</Link>
+                <Link className='mr-4 font-semibold hover:text-indigo-600 hover:italic hover:font-extrabold' to='/statistics'>Statistics</Link>
+                <Link className='mr-4 font-semibold hover:text-indigo-600 hover:italic hover:font-extrabold' to='/blog'>Blog</Link>
             </nav>
 
         </div>

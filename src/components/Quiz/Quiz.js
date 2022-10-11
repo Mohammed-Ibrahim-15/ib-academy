@@ -9,10 +9,10 @@ const Quiz = ({ quiz }) => {
             <div className='flex flex-col w-full justify-between items-stretch'>
                 <div className='mb-4'>
                     <h1 className='font-bold lg:text-2xl'>Quiz Name: {name} </h1>
-                    <p className=' font-medium lg:text-xl'>Total Quiz: {total}</p>
+                    <p className=' font-medium lg:text-xl'>Total Questions: {total}</p>
                 </div>
                 <Link to={`quiz/${id}`}>
-                    <button className='bg-indigo-600 font-medium px-6 py-2 rounded-lg hover:bg-yellow-500'>Click Here</button>
+                    <button className='bg-indigo-600 text-white font-medium px-6 py-2 rounded-lg hover:bg-yellow-400 hover:italic hover:font-bold hover:text-black'>Click Here</button>
                 </Link>
             </div>
 
