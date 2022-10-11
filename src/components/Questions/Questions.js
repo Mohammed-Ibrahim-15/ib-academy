@@ -17,7 +17,7 @@ const Questions = ({ questions }) => {
         }
     }
     return (
-        <div className='border-2 border-sky-500 rounded-3xl p-8 my-3 mx-1/2 mx-12'>
+        <div className='border-2 border-indigo-500 rounded-3xl p-8 my-3 mx-1/2 mx-12'>
             <h1 className='text-xl font-bold my-4'>{question}</h1>
             {
                 options.map((options, idx) => <Options
@@ -29,7 +29,7 @@ const Questions = ({ questions }) => {
             <div onClick={() => setShowAns(!showAns)} className='flex flex-col items-center justify-center mt-2 hover:bg-slate-200 cursor-pointer'>
                 {
                     showAns ?
-                        <EyeIcon className="h-6 w-6 text-blue-500 my-3" />
+                        <EyeIcon className="h-6 w-6 text-indigo-700 my-3" />
                         :
                         <h1 className='font-semibold my-3'>Correct Answer: <span className=' font-serif text-blue-500'>{correctAnswer}</span> </h1>
                 }
